@@ -21,7 +21,7 @@ const App = () => {
     });
   }, []);
 
-  return (
+  return (//
     <Suspense fallback={<Loading />}>
       <div className="overflow-hidden">
         <div className={`sm:px-16 px-6 flex justify-center items-center`}>
